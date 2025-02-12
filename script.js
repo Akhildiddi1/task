@@ -49,7 +49,7 @@ function renderCart() {
             </td>
             <td class="subtotal">${formatPrice(itemSubtotal)}</td>
             <td class="remove">
-                <img src="/Assets/images/Vector.png" alt="Remove" onclick="removeItem(${index})">
+                <img src="Assets/images/Vector.png" alt="Remove" onclick="removeItem(${index})">
             </td>
         `;
         cartItemsContainer.appendChild(row);
